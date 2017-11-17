@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tecler Example Template</title>
+	</head>
+	<body>
+		<h1>{{headline}}</h1>
+		<p>{{intro}}</p>
+		<!--{{if:articles}}-->
+			<ul>
+				<!--{{repeat:articles}}-->
+					<li>{{item.number}} &ndash; {{item.name}}</li>
+				<!--{{endrepeat}}-->
+			</ul>
+		<!--{{else}}-->
+			<p>There are no articles yet.</p>
+		<!--{{endif}}-->
+	</body>
+</html>
